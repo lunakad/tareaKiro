@@ -1,0 +1,30 @@
+# Entorno virtual
+venv/
+.venv/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Variables y secretos
+.env
+.env.*
+!.env.example
+
+# Base de datos / instancia local
+instance/
+
+# Archivos de SQLite
+*.db
+*.sqlite
+*.sqlite3
+
+# Kiro
+.kiro/
+
+# IDE / sistema operativo
+.vscode/
+.idea/
+*.swp
+.DS_Store
